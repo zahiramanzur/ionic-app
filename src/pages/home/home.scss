@@ -1,3 +1,70 @@
 page-home {
-
+    .back-home{
+        background-image: url('../../assets/imgs/bg-home-menu.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .logo-redMAS img{
+        max-width: 100%;
+        border: 0;
+        display: block;
+        margin: auto;
+        padding-top: 35%;
+        margin-bottom: 30%;
+    }
+    .card{
+        width: 100%;
+        margin-left: auto;        
+        background: #eeeaea3b;
+        padding-top:5%;
+        padding-bottom: 5%;
+        margin: 0;
+        border-color: #f7ebeb;
+        border-style : solid;
+        border-width: 1px 1px 1px 1px;
+    
+    }
+    .card .card-header{
+        font-size: 2.2rem;
+        font-weight: 900;
+        color: #f7ebeb;
+        margin: auto;
+        margin-left: 0;
+        text-align: left;    
+    }
+    .card .icon{
+        width: 45px;
+        height: 45px;
+        margin: auto;
+        margin-right: 0;
+    }
+    .card .icon-arrow{
+        width: 80px;
+        height: 80px;
+        margin: auto; 
+        display: block;
+    }
+    .circle-button ion-icon{
+        background-image: url('../../assets/imgs/help-operator.png');
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .circle-button{
+        width: 100px;
+        height: 100px;
+        color: #e01e1e;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    ion-navbar{
+        background-color: transparent;
+    }
+    
 }
+
+
